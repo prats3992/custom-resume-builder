@@ -1,0 +1,100 @@
+{
+  "personalInfo": {
+    "name": "PRATHAM ARORA",
+    "role": "Front End Developer",
+    "email": null,
+    "phone": "+91 9810855594",
+    "github": null,
+    "linkedin": null,
+    "website": null,
+    "photo": "/placeholder.svg?height=400&width=400"
+  },
+  "education": [
+    {
+      "degree": "BTech - Computer Science & AI",
+      "school": "Plaksha University",
+      "location": "Mohali",
+      "date": "2026"
+    }
+  ],
+  "experience": [
+    {
+      "role": "SDE Intern",
+      "company": "Orangewood Labs",
+      "location": null,
+      "date": "June 2024 - July 2024",
+      "achievements": [
+        "Enhanced RoboGPT by developing new functionalities for food preparation tasks.",
+        "Integrated a vision stack to improve the accuracy of object pose detection, reducing error margins in robotic movements.",
+        "Collaborated with the Food Robotics team to refine and implement key processes, such as coffee preparation, within the robotic workflow."
+      ]
+    },
+    {
+      "role": "Head of Web Development",
+      "company": "LEAP.AI@Plaksha",
+      "location": null,
+      "date": "Feb. 2024 - Feb. 2025",
+      "achievements": [
+        "Served as Head of Web Development for the Club Website, creating engaging content for Socials.",
+        "Contributed to the design and development of the LEAP.AI@Plaksha Club website, enhancing its functionality and user interface.",
+        "Worked closely with the team to ensure seamless integration of content and design elements across digital platforms."
+      ]
+    },
+    {
+      "role": "Tech Team Member",
+      "company": "E-Cell@Plaksha",
+      "location": null,
+      "date": "April 2024 - Sept. 2024",
+      "achievements": [
+        "Developed the club's website and event-specific pages, ensuring a seamless user experience.",
+        "Spearheaded the creation of the Club Merchandise Store, integrating it with the existing digital infrastructure."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "ResumeBuilder & InterviewGPT",
+      "description": "Led frontend development with Next.js, Tailwind CSS, and shadcn for a mobile-first UI. Architected backend services with FastAPI, handling resume parsing and AI chat interactions. Leveraged Gemini models for real-time feedback and role-aligned resume recommendations.",
+      "technologies": [
+        "Next.js",
+        "FastAPI",
+        "Gemini-2.0",
+        "Firebase",
+        "Tailwind CSS",
+        "shadcn"
+      ]
+    },
+    {
+      "name": "Sports Fest Site",
+      "description": "Designed and developed a fully responsive website for Eklavya '25, the university's annual sports fest. Ensured responsiveness across all screen sizes, optimizing accessibility for participants and viewers. Leveraged Next.js and framer-motion for buttery smooth animations and sleek page transitions.",
+      "technologies": [
+        "Next.js",
+        "Typescript",
+        "framer-motion"
+      ]
+    },
+    {
+      "name": "Basketball Scoreboard & Individual Data Tracker",
+      "description": "Built a real-time basketball scoreboard with a focus on speed and ease of use for scorekeepers. Improved UI after 6 months of stress testing, adding undo buttons and repositioning controls for optimal usability. Implemented real-time stats tracking for rebounds and shot accuracy, instantly displaying player performance.",
+      "technologies": [
+        "Next.js",
+        "Typescript",
+        "Firebase"
+      ]
+    }
+  ],
+  "skills": {
+    "technical": [
+      "JavaScript/TypeScript",
+      "HTML/CSS",
+      "Next.js",
+      "FastAPI",
+      "Tailwind CSS",
+      "shadcn",
+      "Firebase",
+      "framer-motion"
+    ],
+    "soft": []
+  },
+  "template": "infographic"
+}
