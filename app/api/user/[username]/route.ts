@@ -2,9 +2,9 @@ import { NextRequest, NextResponse } from "next/server";
 import { database } from "@/lib/firebase";
 import { ref, get } from "firebase/database";
 
-export async function GET(request: NextRequest, { params }: { params: { username: string } }) {
+export async function GET(request: NextRequest, { params }: { params: Promise<{ username: string }> }) {
   try {
-    const username = params.username;
+    const { username } = await params;
 
     if (!username) {
       return NextResponse.json({ message: "Username is required" }, { status: 400 });
