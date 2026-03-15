@@ -47,8 +47,7 @@ async function extractTextFromPdfWithGemini(fileBuffer: Buffer, filename: string
   if (!genAI || !fileManager) { // Check for fileManager as well
     throw new Error("Google AI SDK or FileManager not initialized. Check GOOGLE_API_KEY.");
   }
-  // Use the user-specified model
-  const model = genAI.getGenerativeModel({ model: "gemini-2.5-flash-preview-05-20" });
+  const model = genAI.getGenerativeModel({ model: "gemini-1.5-flash" });
 
   let tempFilePath = "";
   let uploadResult;
@@ -115,9 +114,7 @@ async function extractTextFromPdfWithGemini(fileBuffer: Buffer, filename: string
 // Helper function to process resume text with Gemini
 async function processResumeWithGemini(resumeText: string, templateName: string, targetRole: string): Promise<any> {
   if (!genAI) throw new Error("Google AI SDK not initialized. Check GOOGLE_API_KEY.");
-  // Model name from Python: 'gemini-2.5-flash-preview-04-17', but Node SDK might prefer 'gemini-1.5-flash-latest'
-  // Let's use a generally available model, adjust if specific version is critical and available.
-  const model = genAI.getGenerativeModel({ model: "gemini-2.5-flash-preview-04-17" });
+  const model = genAI.getGenerativeModel({ model: "gemini-1.5-flash" });
 
   const prompt = `
     You are a professional resume parser. Extract structured information from the following resume text.
