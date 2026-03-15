@@ -1,100 +1,109 @@
 {
   "personalInfo": {
-    "name": "PRATHAM ARORA",
-    "role": "Front End Developer",
-    "email": null,
-    "phone": "+91 9810855594",
-    "github": null,
-    "linkedin": null,
-    "website": null,
+    "name": "Pratham Arora",
+    "role": "AI Engineer",
+    "email": "pratham3992@gmail.com",
+    "phone": "",
+    "github": "github.com/prats3992",
+    "linkedin": "linkedin.com/in/pratham3992arora",
+    "website": "pratham-arora.vercel.app",
     "photo": "/placeholder.svg?height=400&width=400"
   },
   "education": [
     {
-      "degree": "BTech - Computer Science & AI",
+      "degree": "B.Tech. in Computer Science & AI (CGPA: 8.20 / 10.0)",
       "school": "Plaksha University",
-      "location": "Mohali",
-      "date": "2026"
+      "location": "Mohali, India",
+      "date": "Expected Aug. 2026"
     }
   ],
   "experience": [
     {
-      "role": "SDE Intern",
+      "role": "AI Intern",
+      "company": "Cotality",
+      "location": "Kolkata, India",
+      "date": "June 2025 - July 2025",
+      "achievements": [
+        "Developed a robust RAG pipeline using LangChain, Azure OpenAI embeddings, and Cosmos DB with DiskANN vector search for enhanced semantic code retrieval, scaling efficiently as repository size grew.",
+        "Engineered a hash-based change detection system using SHA-256 on AST nodes, segmenting codebases by function to optimize AI embedding generation costs by 85% through eliminating redundant vector database updates.",
+        "Collaborated to architect a FastAPI backend that parses over 50,000 lines of code daily across 15+ programming languages via Abstract Syntax Tree (AST) analysis, enabling automated real-time documentation."
+      ]
+    },
+    {
+      "role": "Software Development Engineer Intern",
       "company": "Orangewood Labs",
-      "location": null,
+      "location": "Noida, India",
       "date": "June 2024 - July 2024",
       "achievements": [
-        "Enhanced RoboGPT by developing new functionalities for food preparation tasks.",
-        "Integrated a vision stack to improve the accuracy of object pose detection, reducing error margins in robotic movements.",
-        "Collaborated with the Food Robotics team to refine and implement key processes, such as coffee preparation, within the robotic workflow."
-      ]
-    },
-    {
-      "role": "Head of Web Development",
-      "company": "LEAP.AI@Plaksha",
-      "location": null,
-      "date": "Feb. 2024 - Feb. 2025",
-      "achievements": [
-        "Served as Head of Web Development for the Club Website, creating engaging content for Socials.",
-        "Contributed to the design and development of the LEAP.AI@Plaksha Club website, enhancing its functionality and user interface.",
-        "Worked closely with the team to ensure seamless integration of content and design elements across digital platforms."
-      ]
-    },
-    {
-      "role": "Tech Team Member",
-      "company": "E-Cell@Plaksha",
-      "location": null,
-      "date": "April 2024 - Sept. 2024",
-      "achievements": [
-        "Developed the club's website and event-specific pages, ensuring a seamless user experience.",
-        "Spearheaded the creation of the Club Merchandise Store, integrating it with the existing digital infrastructure."
+        "Integrated Computer Vision capabilities into a robotic arm control loop for food-preparation tasks, significantly improving real-time positioning accuracy through end-to-end calibration optimization.",
+        "Designed and implemented a modular LLM + robot control codebase, establishing clean architectural boundaries that facilitated seamless parallel integration with a dedicated Computer Vision team."
       ]
     }
   ],
   "projects": [
     {
-      "name": "ResumeBuilder & InterviewGPT",
-      "description": "Led frontend development with Next.js, Tailwind CSS, and shadcn for a mobile-first UI. Architected backend services with FastAPI, handling resume parsing and AI chat interactions. Leveraged Gemini models for real-time feedback and role-aligned resume recommendations.",
+      "name": "VR LLM Conversational Agent",
+      "description": "Engineered a real-time VR conversational agent integrating Gemini 2.5 Flash with Google Cloud Speech-to-Text and Text-to-Speech, achieving an average response latency of 1.8s through parallel API calls, caching, and audio preprocessing. Conducted a within-subjects experimental study (N=18) proving embodied gestures significantly outperform visual loading indicators for perceived animacy (p < 0.05), translating a latency engineering problem into a concrete HCI design recommendation. Co-authored a paper submitted to MIT's Presence journal.",
+      "technologies": [
+        "Unity",
+        "Gemini API",
+        "Google Cloud STT/TTS",
+        "HCI"
+      ]
+    },
+    {
+      "name": "Kelp Forest Semantic Segmentation",
+      "description": "Achieved a Top 100 ranking (83rd percentile) in a DrivenData satellite imagery competition by implementing a U-Net with an EfficientNet-B3 backbone for precise semantic segmentation of kelp forests in noisy real-world satellite imagery. Developed a robust streak-detection pipeline utilizing an ensemble of CNN classifiers (ResNet, DenseNet) with hard voting to effectively identify and filter atmospherically corrupted satellite images from training data, achieving an F1 score of 0.952 on streak classification.",
+      "technologies": [
+        "PyTorch",
+        "U-Net",
+        "EfficientNet",
+        "CNNs",
+        "Scikit-learn",
+        "OpenCV"
+      ]
+    },
+    {
+      "name": "AI Resume Builder & Interview Prep Tool",
+      "description": "Developed a full-stack AI tool integrating Gemini 2.5 Flash to power an \"Interview GPT\" feature that generates personalized interview questions by cross-referencing user resumes with an interview prep database (DSA problems, STAR templates), including robust error handling. Implemented real-time PDF preview and ATS-optimized resume generation, alongside Firebase Authentication with Google OAuth for secure user management.",
       "technologies": [
         "Next.js",
-        "FastAPI",
-        "Gemini-2.0",
-        "Firebase",
         "Tailwind CSS",
-        "shadcn"
-      ]
-    },
-    {
-      "name": "Sports Fest Site",
-      "description": "Designed and developed a fully responsive website for Eklavya '25, the university's annual sports fest. Ensured responsiveness across all screen sizes, optimizing accessibility for participants and viewers. Leveraged Next.js and framer-motion for buttery smooth animations and sleek page transitions.",
-      "technologies": [
-        "Next.js",
-        "Typescript",
-        "framer-motion"
-      ]
-    },
-    {
-      "name": "Basketball Scoreboard & Individual Data Tracker",
-      "description": "Built a real-time basketball scoreboard with a focus on speed and ease of use for scorekeepers. Improved UI after 6 months of stress testing, adding undo buttons and repositioning controls for optimal usability. Implemented real-time stats tracking for rebounds and shot accuracy, instantly displaying player performance.",
-      "technologies": [
-        "Next.js",
-        "Typescript",
-        "Firebase"
+        "Firebase",
+        "Gemini API",
+        "TypeScript"
       ]
     }
   ],
   "skills": {
     "technical": [
-      "JavaScript/TypeScript",
+      "PyTorch",
+      "TensorFlow",
+      "Scikit-learn",
+      "LangChain",
+      "OpenCV",
+      "RAG Pipelines",
+      "Segment Anything (SAM)",
+      "Python",
+      "C++",
+      "SQL",
+      "JavaScript",
+      "TypeScript",
       "HTML/CSS",
-      "Next.js",
-      "FastAPI",
-      "Tailwind CSS",
-      "shadcn",
+      "Bash",
+      "Azure (Cosmos DB, OpenAI)",
+      "Vector Databases (FAISS, DiskANN)",
       "Firebase",
-      "framer-motion"
+      "Google Cloud",
+      "FastAPI",
+      "Node.js",
+      "Next.js",
+      "REST APIs",
+      "GitHub",
+      "Linux",
+      "Vercel"
     ],
     "soft": []
   },
-  "template": "infographic"
+  "template": "polished"
 }

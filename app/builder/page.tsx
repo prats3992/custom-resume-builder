@@ -69,7 +69,7 @@ const templateColors: Record<string, string> = {
 
 type FormValues = z.infer<typeof formSchema>
 
-export default function BuilderPage() {
+function BuilderPageContent() {
   const [isSubmitting, setIsSubmitting] = React.useState(false)
   const [showPaymentAnimation, setShowPaymentAnimation] = React.useState(false)
   const [isUpdating, setIsUpdating] = React.useState(false)
@@ -422,3 +422,10 @@ export default function BuilderPage() {
   )
 }
 
+export default function BuilderPage() {
+  return (
+    <React.Suspense fallback={null}>
+      <BuilderPageContent />
+    </React.Suspense>
+  )
+}
